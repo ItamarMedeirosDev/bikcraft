@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    padding-bottom: 600px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.cor-p{
+    color: var(--primaria);    
+}
+

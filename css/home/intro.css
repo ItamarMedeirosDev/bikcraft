@@ -1,0 +1,106 @@
+.intro-bg{
+    background-color: var(--preto);
+    box-shadow: inset 0px -120px var(--b1);
+    margin-bottom: 120px;
+    
+}
+.intro-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 0px 120px;
+    box-sizing: border-box;    
+    
+}
+.intro-container{    
+    padding: 0px 25px;
+}  
+.intro-conteudo{
+    align-self:end;
+    padding-bottom: 120px;
+}
+.button-intro{
+    margin-top: 32px;
+    margin-bottom: 120px;
+}
+.p-intro{
+    margin-top: 32px;
+}
+
+.intro-img img{
+    border-radius: 5px;
+    object-fit: cover;
+    height: 100%;    
+}
+
+@media (max-width:1200px){
+    .text-style-title{
+        font-family: "Poppins", sans-serif !important;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 3rem;
+        line-height: 1.125;       
+    }
+    .text-style-detail{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: var(--c3);
+    }
+    .button{
+        background-color: var(--primaria);
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        color: var(--p5);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        display: inline-block;
+        box-shadow: 0px 1px 2px rgba(0 0 0 0.1);
+        font-size: 1rem;
+        line-height: 1.33;
+    }
+    .intro-conteudo h1{
+        margin-bottom: 16px !important;
+    }
+}
+@media (max-width:800px){
+    .intro-bg{
+        background-color: var(--c11);
+        padding-top:40px ;
+        box-shadow: inset 0px -60px var(--b1); 
+    }
+    .text-style-title{
+        font-family: "Poppins", sans-serif !important;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2rem;
+        line-height: 1.125; 
+        margin-bottom: 16px;
+    }
+    .intro-conteudo h1{
+        margin-bottom: 8px !important;
+    }
+    .intro-container{
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .intro-conteudo{
+        padding-bottom: 0px;
+    }
+    .button-intro{
+        margin-top: 32px;
+        margin-bottom: 0px;
+        font-size: 0.8rem;
+        padding: 12px 24px;
+    }
+    .intro-img img{
+        border-radius: 5px;
+        object-fit: cover;
+        height: 300px;
+        width: 100%;
+    }
+}
