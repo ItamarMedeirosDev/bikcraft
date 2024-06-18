@@ -1,8 +1,5 @@
-.bicicletas-lista-container{
-    max-width: 1200px;
-    margin: 0 auto;    
-    padding: 0px 25px;
-    box-sizing: border-box;
+.bicicletas-lista{
+    padding-bottom: 120px;
 }
 .bicicletas-lista-container h2{
     margin-bottom: 40px;

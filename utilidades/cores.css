@@ -22,6 +22,9 @@
 .bg-color1{
     background-color: var(--preto);
 }
+.bg-color2{
+    background-color: var(--c11);
+}
 .cor-preto{
     color: var(--preto);
 }
