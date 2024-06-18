@@ -1,6 +1,9 @@
 .text-style-title{
     font: 600 4rem/1.125 "poppins", sans-serif;   
 }
+.text-style-subtitle{
+    font: 600 2rem/1.125 "poppins", sans-serif;   
+}
 .text-style-detail{
     font: 300 1.5rem/1.5 "Roboto", sans-serif;
     letter-spacing: 1.5%;
@@ -9,9 +12,13 @@
 .text-style1{
     font: 500 1.125rem/2 "poppins", sans-serif;
 }
+
 .text-style2{
     font: 400 1.5rem/2.25 "Roboto", sans-serif;
 }
 .text-style3{
     font: 300 1.5rem/1.5 "Roboto", sans-serif;    
+}
+.text-style4{
+    font: 500 1.125rem/2 "Roboto", sans-serif;
 }
