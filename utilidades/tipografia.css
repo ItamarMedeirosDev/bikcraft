@@ -32,4 +32,11 @@
 .text-style6{
     font: 500 1.5rem/2 "poppins", sans-serif;
 }
+.text-style-merri{
+    font-size: 2.25rem;
+    line-height: 1.33;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+}
 
