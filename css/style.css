@@ -1,7 +1,7 @@
 @import url(../global/global.css);
 @import url(../utilidades/tipografia.css);
 @import url(../utilidades/cores.css);
-@import url(../css/home/header.css);
+@import url(../global/header.css);
 @import url(../css/home/escolha.css);
 @import url(../css/home/intro.css);
 @import url(../utilidades/componentes.css);
@@ -9,3 +9,5 @@
 @import url(../css/home/tecnologia.css);
 @import url(../css/home/parceiros.css);
 @import url(../css/home/depoimento.css);
+@import url(../seguros/seguros.css);
+@import url(../global/footer.css);

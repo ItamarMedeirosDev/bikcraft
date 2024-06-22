@@ -19,6 +19,9 @@
 .text-style2-1{
     font: 400 1rem/1.25 "Roboto", sans-serif;
 }
+.text-style2-2{
+    font: 400 1.125rem/2 "Roboto", sans-serif;
+}
 .text-style3{
     font: 300 1.5rem/1.5 "Roboto", sans-serif;    
 }
@@ -31,6 +34,15 @@
 }
 .text-style6{
     font: 500 1.5rem/2 "poppins", sans-serif;
+}
+.text-style7{
+    font: 600 2.25rem/1.33 "poppins", sans-serif;
+}
+.text-style8{
+    font: 600 0.75rem/1.33 "poppins", sans-serif;
+}
+.text-style9{
+    font: 500 1.5rem/1.5 "Roboto", sans-serif;
 }
 .text-style-merri{
     font-size: 2.25rem;
